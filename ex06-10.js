@@ -13,3 +13,9 @@ document.timer.moji.value="";}}
 function startfnc(){
 //関数hyoji()を1000ミリ秒間隔で呼び出す
 setInterval("hyoji()",1000);}
+function mes(){
+alert("３秒経ちました！");
+}
+function hyoji(){
+var str="./image/josai.png";
+document.timer./image/josai.png.value="./image/josai.jpg";}
