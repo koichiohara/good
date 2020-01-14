@@ -6,7 +6,7 @@ var cnt=document.timer.moji.value.length;
 //文字が全部表示されているか確認
 if(cnt<11){
 //現在より1文字多く切り出して表示
-document.timer.moji.value=str.substr1(0,cnt+1);}
+document.timer.moji.value=str.substr(0,cnt+1);}
 else{
 //全て表示されたら、空文字に戻す
 document.timer.moji.value="";}}
@@ -20,14 +20,14 @@ alert("３秒経ちました！");
 function hyoji2()
 {
     var str="一文字ずつ表示します。";
-    var cnt=document.timer.moji.value.length;
+    var cnt=document.timer2.moji2.value.length;
 if(cnt<11)
 {
-    document.timer.moji.value=str.substr2(0,cnt+1);
+    document.timer2.moji2.value=str.substr(0,cnt+1);
 }
 else
 {
-    document.timer.moji.value="";
+    document.timer2.moji2.value="";
 }
 setTimeout("hyoji2()",1000);
 }
